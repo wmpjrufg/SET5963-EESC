@@ -3,5 +3,5 @@
 - Orientadores das disciplinas: [Prof. Ricardo Carrazedo](http://lattes.cnpq.br/3836561236677162);
 - Aluno da disciplina: Wanderlei Malaquias Pereira Junior.
 
-#### [CURVA TENSÃO-DEFORMAÇÃO CONCRETO C30](https://wmpjrufg.github.io/COC0786-e-COC0800/trabalho1.html)
+#### [CURVA TENSÃO-DEFORMAÇÃO CONCRETO C30](https://wmpjrufg.github.io/SET5963-EESC/trabalho1.html)
 
