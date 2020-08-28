@@ -11,14 +11,14 @@ Sobre a ótica dos materiais estruturais conhecer propriedades como módulo de e
 
 <p>A seguir é apresentado o comportamento experimental em situação de compressão uniaxial e em seguida esse resultado será comparado à normativas de projeto como NBR 6118 [2] e Model Code 2010 [3].</p>
 
-$
+$$
 \tilde x=\left\{ 
 \begin{array}{ll}
  x_{\Bigl(\dfrac{n+1}{2}\Bigl)},  & \text{se $n$ for impar} \\
  \dfrac{ x_{\Bigl(\dfrac{n}{2}\Bigl)} + x_{\Bigl(\dfrac{n}{2}+1\Bigl)} }{2}, & \text{se $n$ for par}
 \end{array}
-\right.
-$
+\left.
+$$
 
 $$
 \begin{bmatrix}a & b \\c & d \end{bmatrix}\frac{-b\pm\sqrt{b^2-4ac}}{2a}\prod_a^b\bigvee_a^b\left(\begin{array}{c}a\\ b\end{array}\right)\begin{cases}a & x = 0\\b & x > 0\end{cases}
