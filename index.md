@@ -4,4 +4,4 @@
 - Aluno da disciplina: Wanderlei Malaquias Pereira Junior.
 
 #### [CURVA TENSÃO-DEFORMAÇÃO CONCRETO C30](https://wmpjrufg.github.io/SET5963-EESC/trabalho1.html)
-
+#### [CURVA TENSÃO-DEFORMAÇÃO CONCRETO C30](https://wmpjrufg.github.io/SET5963-EESC/trabalho2.html)
