@@ -21,5 +21,36 @@ $$
 $$
 
 $$
-\begin{bmatrix}a & b \\c & d \end{bmatrix}\frac{-b\pm\sqrt{b^2-4ac}}{2a}\prod_a^b\bigvee_a^b\left(\begin{array}{c}a\\ b\end{array}\right)\begin{cases}a & x = 0\\b & x > 0\end{cases}
+\[
+  \begin{matrix}
+   1 & 2 & 3 \\
+   2 & 3 & 4 \\
+   3 & 4 & 5  
+  \end{matrix},
+  \begin{pmatrix}
+   1 & 2 & 3 \\
+   2 & 3 & 4 \\
+   3 & 4 & 5  
+  \end{pmatrix}, 
+  \begin{bmatrix}
+   1 & 2 & 3 \\
+   2 & 3 & 4 \\
+   3 & 4 & 5  
+  \end{bmatrix}, 
+  \begin{Bmatrix}
+   1 & 2 & 3 \\
+   2 & 3 & 4 \\
+   3 & 4 & 5  
+  \end{Bmatrix}, 
+  \begin{vmatrix}
+   1 & 2 & 3 \\
+   2 & 3 & 4 \\
+   3 & 4 & 5  
+  \end{vmatrix},
+  \begin{Vmatrix}
+   1 & 2 & 3 \\
+   2 & 3 & 4 \\
+   3 & 4 & 5  
+  \end{Vmatrix}
+\]
 $$
