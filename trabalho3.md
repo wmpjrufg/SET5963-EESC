@@ -5,14 +5,18 @@
 
 <p style="text-align: justify;">O diagrama momento-curvatura reflete as leis tensão-deformação não lineares do aço e do concreto. Para cálculo do diagrama momento-curvatura admite-se a hipótese de Bernoulli. Com isto a curvatura é igual ao gradiente de deformações na seção transversal, e também igual a variação da rotação por unidade de comprimento da barra [1].</p> 
 
-Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
-1. Seções planas antes e após das deformações;
-2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;
-3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição ($$\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$
-4. Efeito de fluência é desconsiderado
-5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.
+Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:  
+1. Seções planas antes e após das deformações;  
+2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;  
+3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição ($$\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$;  
+4. Efeito de fluência é desconsiderado;  
+5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.  
 
-**Passo 1: Determinação do limite entre o Estádio I através da determinação do Momento Resistente ($$M_{r}$$)**
+<p style="text-align: justify;">Para obtenção do diagrama de momento curvatura de uma viga é necessário primeiramente definir os pontos notáveis de mudança de estádio da peça. Aseguir os passos são descritos de forma estabelecer o diagrama momento curvatura.</p>
+
+### Passo 1: Determinação do limite entre o Estádio I e Estádio II
+
+Deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente $$Mr$$.
 
 ### Viga 2$$\phi$$12.5 mm
 
