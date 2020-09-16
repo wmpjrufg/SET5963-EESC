@@ -90,57 +90,49 @@ $$
 <p style="text-align: justify;">Portanto para obter as forças no concreto e o equilibrio da seção deverá ser considerado o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto. No caso desse trabalho será utilizado a aproximação do diagrama parabola-retângulo permitida pela NBR 6118. Fazendo então as devidas aproximações, têm-se a equação de equilíbrio de forças normais é dado pela eq. 11:</p>
 
 $$
-(11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy
+(11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x_{\epsilon y}.\sigma_{c}dy
 $$  
 
-No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12:
+No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12. Em eq. 12 $$\epsilon_{y} = 0,207%:
 
 $$
-(12)      \epsilon_{c,i} = \epsilon_{y}.\frac{x}{d-x}$$ e $$\epsilon_{y} = 0,207%
+(12)      \epsilon_{c,i} = \epsilon_{y}.\frac{x_{\epsilon y}}{d-x_{\epsilon y}}$$
 $$
 
 <p style="text-align: justify;">Com as devidas manipulações algébricas consegue obter a nova posição da linha neutra considerando que as armaduras estão em processo de escoamento. Tal dado permite também obter a curvatura da peça.</p>
 
-<p style="text-align: justify;">Com a posição da linha neutra é possível fazer o somatório de momentos na seção, conforme equação a seguir:</p>
+<p style="text-align: justify;">Com a posição da linha neutra é possível fazer o somatório de momentos na seção, conforme eq. 13.</p>
 
-$$M_{4} = A_{s}.f_{y}.(d-0.40.x)$$
+$$
+(13)      M_{4} = A_{s}.f_{y}.(d-0.40.x_{\epsilon y})
+$$
 
-### Passo 4: Considerando que o concreto atinge o valor de $$f_{ck}$$ plastificando completamente a seção
+### Passo 4: Considerando que o concreto atinge o valor de $$f_{ck}$$ e plastifica completamente a seção comprimida
 
-<p style="text-align: justify;">A partir desse ponto admite-se que o concreto atingiu o valor da resistência a compressão e então efetua-se o ca´lculo da nova posição da linha neutra da seção. Tomando como referência a equção anterior.</p>
+<p style="text-align: justify;">A partir desse ponto admite-se que o concreto atingiu o valor da resistência a compressão e então efetua-se o cálculo da nova posição da linha neutra da seção. Tomando como referência a eq. 11 obten-se a eq. 14.</p>
 
-$$A_{s}.f_{y} = = b_{w}.0,80.x_{\epsilon cu}.\f_{ck}dy$$  
+$$
+(14)      A_{s}.f_{y} = = b_{w}.0,80.x_{\epsilon cu}.\f_{ck}dy
+$$  
 
-Determinando a curvatura:
+Portanto determina-se o par momento-curvatura conforme eq's. 15 e 16:
 
-$$\phi_{5} = \frac{\epsilon_{cu}}{x_{\epsilon cu}}$$  
+$$
+(15)      \phi_{5} = \frac{\epsilon_{cu}}{x_{\epsilon cu}}
+$$  
 
-$$M_{5} = A_{s}.f_{y}.(d-0.40.x_{\epsilon cu})$$
+$$
+(16)      M_{5} = A_{s}.f_{y}.(d-0.40.x_{\epsilon cu})
+$$
 
 
 ### Viga 2$$\phi$$12.5 mm
 
-<p style="text-align: justify;"> Para obtenção do diagrama de momento curvatura de uma viga é necessário primeiramente definir os pontos notáveis de mudança de estádio da peça. Para isso iremos estabelecer o ponto de início do processo de fissuração na viga de concreto que corresponde ao fim do Estádio I e início do Estádio II. Portanto efetuaremos o cálculo do momento resistente e em sequência a curvatira correspondente. </p> 
-
-O momento resistente $$Mr$$ e a curvatura da peça são dadas por:
-
-$$M_{1} = M_{r} = \frac{\alpha.f_{ctm}.I_{I}}{y_{t}}$$    
-$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$  
-$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$  
-
-<p style="text-align: justify;"> Portanto com a determinação dos valores de momento resistente e curvatura no ponto de início de fissuração marca-se o fim do Estádio I. Nessa região os pontos notáveis da curva são: </p> 
-
--Momento resistente: $$M_{r} = 10284,13 kN.cm$$  
--Curvatura: $$\phi = 3,42 cm^{-1}$$  
-
--Deformação no concreto: $$\epsilon_{c} = 0,010 %$$  
--Área da seção: $$A_{c} = 2487,92 cm^{2}$$  
--Linha Neutra: $$x_{I} = 30,92 cm$$  
--Inércio Estádio I: $$I_{I} = 777333,60 cm^{4}$$  
+[notebook 1](link)
 
 ### Viga 5$$\phi$$32.00 mm
 
-<p style="text-align: justify;"> teste </p> 
+[notebook 2](link)
 
 ### Referências
 
