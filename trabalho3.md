@@ -8,53 +8,51 @@
 Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:  
 1. Seções planas antes e após das deformações;  
 2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;  
-3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição ($$\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$;  
+3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição $$(\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$;  
 4. Efeito de fluência é desconsiderado;  
 5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.  
 
-<p style="text-align: justify;">Para obtenção do diagrama de momento curvatura de uma viga é necessário primeiramente definir os pontos notáveis de mudança de estádio da peça. Aseguir os passos são descritos de forma estabelecer o diagrama momento curvatura.</p>
+<p style="text-align: justify;">Para obtenção do diagrama de momento-curvatura de uma viga é necessário primeiramente definir os pontos notáveis de mudança de estádio da peça. A seguir são descritos os passos para obtenção desse diagrama.</p>
 
 ### Passo 1: Determinação do limite entre o Estádio I e Estádio II
 
-<p style="text-align: justify;">Deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente. Considerando seções planas e as relações lineares entre deformação no concreto e a curvatura, têm-se o seguinte equacionamento.</p>
+<p style="text-align: justify;">Primeiramente deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente conforme eq. 1. Considerando seções planas e as relações lineares entre as deformações pode obter a curvatura da barra conforme eq. 2.</p>
 
 ----|-----:
 $$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$  | [1]
 $$\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$$               | [2]
 $$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$                  | [3]  
-3 | 2
-
--[1]  
--[2]  
--[3]    
 
 Onde:
 + $$f_{ct,inf}$$: Resistência à tração inferior do concreto;
-+ $$\alpha$$: Fator majorador da resistência à tração para seção retangular;
-+ $$E_{ci}$$: Módulo de elasticidade tangente;
-+ $$I_{I}$$ e $${y_{t}$$: Inércia da peça no Estádio I e distância da linha neutra ao bordo mais tracionado.
++ $$\alpha$$: Fator majorador da resistência à tração para seções. No caso de seção retangular $$\alpha = 1,50$$;
++ $$E_{ci}$$: Módulo de elasticidade tangente conforme Tabela 8.1 da NBR 6118 [2];
++ $$I_{I}$$ e $${y_{t}$$: Inércia da peça no Estádio I e distância da linha neutra ($$x_{I}$$) ao bordo mais tracionado.
 
-<p style="text-align: justify;">As equações de determinação de inércia e linha neutra no Estádio I com e sem consideração da armadura podem ser encontradas em Carvalho e Figueiredo Filho [2] cap. 4.</p>
+<p style="text-align: justify;">As equações de determinação de inércia e linha neutra no Estádio I, com e sem consideração da armadura tracionada e/ou comprimida, podem ser encontradas em Carvalho e Figueiredo Filho [3] cap. 4.</p>
 
 ### Passo 2: Determinação da nova linha neutra para seção fissurada
 
-<p style="text-align: justify;">Após o aumento da curvatura a peça de concreto começará a fissurar, portanto após deverá ser calculada uma nova posição da linha neutra conforme proposto em Carvalho e Figueiredo Filho [2] cap. 4.</p>
+<p style="text-align: justify;">Após o aumento da curvatura na peça de concreto começará a fissurar, logo deverá ser calculada uma nova posição da linha neutra conforme proposto em Carvalho e Figueiredo Filho [3] cap. 4, considerando agora as propriedades geométricas para uma seção fissurada.</p>
 
-<p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando que a seção inferior de concreto passa a ser desprezada a partir desse ponto. As equações que marcam esse trecho são:</p>
+<p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando aqui que a seção inferior de concreto passa a ser desprezada a partir desse ponto. Portanto o momento e a curvatura da seção são dadas pelas eq. :</p>
 
-4. $$M_{2} = M_{r}$$     
-
-5. $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$        
+----|-----:
+$$M_{2} = M_{r}$$                                   | [4]
+$$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]  
 
 ### Passo 3: Aumento da curvatura e mudança no módulo de elasticidade do concreto
 
-<p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção. As equações ára esse porcesso são:</p>
+<p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção e mudança do módulo de elasticidade do concreto. As equações 6 a 8 apresentam o cálculo da curvatura e momento correspondente:</p>
 
-$$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$  
+----|-----:
+$$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$           | [6]
+$$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$              | [7]  
+$$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$             | [8] 
+  
 
-$$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$
 
-$$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$
+
 
 <p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada na seção inferior está em uma zona linear elástica para esse material. Para isso utilzia-se a relações entre deformação da seção, conforme equação.</p>
 
@@ -127,6 +125,6 @@ $$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$
 
 1. <p style="text-align: justify;">BUCHAIM, R. A influência da não-linearidade física do concreto armado na rigidez à flexão e na capacidade de rotação plástica. Tese de Doutorado em Engenharia de Estruturas. Universidade de São Paulo (USP), 2001.</p>
 
-2. <p style="text-align: justify;">CARVALHO, R. C. FIGUEIREDO FILHO, J R. Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado: Segundo a NBR 6118:2014. Editora EduFSCar, 4º edição, São Carlos, 2014.</p>
+2. <p style="text-align: justify;">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). NBR 6118 Projeto de Estruturas de Concreto - Procedimento, Rio de Janeiro, 2014.</p>
 
-3. <p style="text-align: justify;">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). NBR 6118 Projeto de Estruturas de Concreto - Procedimento, Rio de Janeiro, 2014.</p>
+3. <p style="text-align: justify;">CARVALHO, R. C. FIGUEIREDO FILHO, J R. Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado: Segundo a NBR 6118:2014. Editora EduFSCar, 4º edição, São Carlos, 2014.</p>
