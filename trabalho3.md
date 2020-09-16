@@ -80,7 +80,7 @@ Deve-se lembrar que a deformação $$\epsilon_{c,y}$$ é referente a qualquer po
 
 Nesse caso a equação resultante após a integração é dada por:
 
-$$-1/3\,{\frac{{\it fc}\,{{\it \epsilon_{y}}}^{2}{x}^{3}}{ \left( d-x \right)^{2}{{\it \epsilon_{c2}}}^{2}}}+{\frac {{\it fc}\,{\it \epsilon_{y}}\,{x}^{2}}{ \left(d-x \right) {\it \epsilon_{c2}}}}$$
+$$-1/3\,{\frac{{{f_{ck}}\,{{\epsilon_{y}}}^{2}{x}^{3}}{\left(d-x\right)^{2}{{\epsilon_{c2}}}^{2}}}+{\frac{{f_{ck}}\,{\it \epsilon_{y}}\,{x}^{2}}{\left(d-x\right){\epsilon_{c2}}}}$$
 
 
 Onde $$z_{II}$$ indica o braço de alavanca das forças atuantes no concreto até o contoíde que representa as armaduras. $$z_{II}$$ é dado por:
