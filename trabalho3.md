@@ -1,7 +1,16 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-### Teoria Momento Curvatura
+## Determinação do diagrama Momento Curvatura
+
+<p style="text-align: justify;">O diagrama momento-curvatura reflete as leis tensão-deformação não lineares do aço e do concreto. Para cálculo do diagrama momento-curvatura admite-se a hipótese de Bernoulli. Com isto a curvatura é igual ao gradiente de deformações na seção transversal, e também igual a variação da rotação por unidade de comprimento da barra [1].</p> 
+
+Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
+1. Seções planas antes e após das deformações;
+2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;
+3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição ($$\dfrac{d(\epsilon)}{dt} \approx 10_{-5} /s$$
+4. Efeito de fluência é desconsiderado
+5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.
 
 ### Viga 2$$\phi$$12.5 mm
 
@@ -26,3 +35,7 @@ $$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$
 ### Viga 5$$\phi$$32.00 mm
 
 <p style="text-align: justify;"> teste </p> 
+
+### Referências
+
+1. BUCHAIM, R. A influência da não-linearidade física do concreto armado na rigidez à flexão e na capacidade de rotação plástica. Tese de Doutorado em Engenharia de Estruturas. Universidade de São Paulo (USP), 2001.
