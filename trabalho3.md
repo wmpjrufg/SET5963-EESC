@@ -46,9 +46,9 @@ O equilíbrio deforças normais é dado por:
 
 $$A_{s}.f_{y} = \frac{1}{2}.\sigma_{c}.b_{w}.x_{II}$$   
 
-Determina-se então a tensão no concreto comprimido $$\sigma_{C}$$:
+Determina-se então a tensão no concreto comprimido $$\sigma_{C}$$. Lembrando que nesse ponto ainda será considerado o módulo $$E_{ci}$$ para o concreto.
 
-$$\sigma_{c} = \epsilon_{c}.E_{cs}
+$$\sigma_{c} = \epsilon_{c}.E_{ci}
 
 
 
