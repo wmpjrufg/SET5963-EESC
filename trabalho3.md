@@ -89,7 +89,7 @@ $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]
 | :--- | ---: |
 | $$A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$           | [11] |     
 
-$$A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$  
+$$  (11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$  
 
 No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12:
 
