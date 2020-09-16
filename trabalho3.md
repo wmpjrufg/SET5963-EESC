@@ -108,7 +108,7 @@ $$
 (13)      M_{4} = A_{s}.f_{y}.(d-0.40.x_{\epsilon y})
 $$
 
-### Passo 4: Considerando que o concreto atinge o valor de $$f_{ck}$$ e plastifica completamente a seção comprimida
+### Passo 5: Considerando que o concreto atinge o valor de $$f_{ck}$$ e plastifica completamente a seção comprimida
 
 <p style="text-align: justify;">A partir desse ponto admite-se que o concreto atingiu o valor da resistência a compressão e então efetua-se o cálculo da nova posição da linha neutra da seção. Tomando como referência a eq. 11 obtém-se a eq. 14.</p>
 
