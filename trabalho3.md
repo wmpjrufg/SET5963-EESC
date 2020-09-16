@@ -35,7 +35,7 @@ Onde:
 
 <p style="text-align: justify;">Após o aumento da curvatura na peça de concreto começará a fissurar, logo deverá ser calculada uma nova posição da linha neutra conforme proposto em Carvalho e Figueiredo Filho [3] cap. 4, considerando agora as propriedades geométricas para uma seção fissurada.</p>
 
-<p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando aqui que a seção inferior de concreto passa a ser desprezada a partir desse ponto. Portanto o momento e a curvatura da seção são dadas pelas eq. :</p>
+<p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando aqui que a seção inferior de concreto passa a ser desprezada a partir desse ponto. Portanto o momento e a curvatura da seção são dadas pelas eq's. 4 e 5:</p>
 
 ----|-----:
 $$M_{2} = M_{r}$$                                   | [4]
@@ -43,22 +43,18 @@ $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]
 
 ### Passo 3: Aumento da curvatura e mudança no módulo de elasticidade do concreto
 
-<p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção e mudança do módulo de elasticidade do concreto. As equações 6 a 8 apresentam o cálculo da curvatura e momento correspondente:</p>
+<p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção e mudança do módulo de elasticidade do concreto. As eq's. 6 a 8 apresentam o cálculo da curvatura e momento correspondente:</p>
+
+| :--- | ---: |
+$$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$           | [6] |
+$$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$              | [7] |
+$$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$             | [8] |
+  
+<p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada está em uma zona linear elástica para esse material. Para isso utiliza-se a relações entre deformação da seção, conforme eq. 9.</p>
 
 ----|-----:
-$$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$           | [6]
-$$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$              | [7]  
-$$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$             | [8] 
-  
+$$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$           | [9]
 
-
-
-
-<p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada na seção inferior está em uma zona linear elástica para esse material. Para isso utilzia-se a relações entre deformação da seção, conforme equação.</p>
-
-$$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$
-
-\begin{equation*} f(x) = 4x^3 + 2x^2 + 1 \end{equation*}
 
 ### Passo 4: O escoamento da armadura
 
