@@ -18,15 +18,15 @@ Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
 
 Deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente $$M_{r}$$. Considerando seções planas e as relações lineares entre deformação no concreto ($$\epsilon_{c}$$) e a curvatura $$\phi_{1}$$, têm-se o seguinte equacionamento.
 
-$$M_{1} = M_{r} = \frac{\alpha.f_{ctm}.I_{I}}{y_{t}}$$
-$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$  
-$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$
+$$M_{1} = M_{r} = \frac{\alpha.f_{ctm}.I_{I}}{y_{t}}$$  
+$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$     
+$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$  
 
 Onde:
-- $$f_{ctm}$$: Resistência à tração média do concreto;
-- $$\alpha$$: Fator majorador da resistência à tração para seção retangular;
-- $$E_{ci}$$: Módulo de elasticidade tangente;
-- $$I_{I}$$ e $${y_{t}$$: Inércia da peça no Estádio I e distância da linha neutra ao bordo mais tracionado.
++ $$f_{ctm}$$: Resistência à tração média do concreto;
++ $$\alpha$$: Fator majorador da resistência à tração para seção retangular;
++ $$E_{ci}$$: Módulo de elasticidade tangente;
++ $$I_{I}$$ e $${y_{t}$$: Inércia da peça no Estádio I e distância da linha neutra ao bordo mais tracionado.
 
 <p style="text-align: justify;">As equações de determinação de inércia e linha neutra no Estádio I com e sem consideração da armadura podem ser encontradas em Carvalho e Figueiredo Filho [2] cap. 4.</p>
 
