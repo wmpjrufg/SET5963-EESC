@@ -50,9 +50,20 @@ $$\phi_{3} = \frac{\epsilon_{c=045fck}}{x_{II}}$$
 
 $$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$
 
-<p style="text-align: justify;">Nessa fase é necessário checar a tensão na armadura tracionada na seção inferior. Para isso utilzia-se a relações entre deformação da seção, conforme equação.</p>
+<p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada na seção inferior está em uma zona linear elástica para esse material. Para isso utilzia-se a relações entre deformação da seção, conforme equação.</p>
 
-$$\epsilon_{s} = \epsilon_{c=045fck}.\frac{d-x_{II}}{x_{II}}$$
+$$\epsilon_{s} = \epsilon_{c=045fck}.\frac{d-x_{II}}{x_{II}} \neq \epsilon_{y}$$
+
+### Passo 4: O escoamento da armadura
+
+<p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente porém considerando que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [3].</p>
+
+
+$$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}]$$
+
+<p style="text-align: justify;">Para o concreto de 30 MPa os valores das deformações são:</p>
+
+-$$\epsilon_{c2} = 0,002$$ e $$\epsilon_{cu} = 0,0035$$
 
 Onde $$z_{II}$$ indica o braço de alavanca das forças atuantes no concreto até o contoíde que representa as armaduras. $$z_{II}$$ é dado por:
 
@@ -96,3 +107,5 @@ $$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$
 1. <p style="text-align: justify;">BUCHAIM, R. A influência da não-linearidade física do concreto armado na rigidez à flexão e na capacidade de rotação plástica. Tese de Doutorado em Engenharia de Estruturas. Universidade de São Paulo (USP), 2001.</p>
 
 2. <p style="text-align: justify;">CARVALHO, R. C. FIGUEIREDO FILHO, J R. Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado: Segundo a NBR 6118:2014. Editora EduFSCar, 4º edição, São Carlos, 2014.</p>
+
+3. <p style="text-align: justify;">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). NBR 6118 Projeto de Estruturas de Concreto - Procedimento, Rio de Janeiro, 2014.</p>
