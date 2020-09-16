@@ -8,7 +8,7 @@
 Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:  
 1. Seções planas antes e após das deformações;  
 2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;  
-3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição $(\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$;  
+3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição $$(\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$;  
 4. Efeito de fluência é desconsiderado;  
 5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.  
 
@@ -18,17 +18,17 @@ Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
 
 <p style="text-align: justify;">Primeiramente deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente conforme eq. 1. Considerando seções planas e as relações lineares entre as deformações pode obter a curvatura da barra conforme eq. 2.</p>
 
-(1)    
+    
 $$
-M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}
+(1)    M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}
 $$          
-(2)    
+   
 $$
-\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}
+(2)    \epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}
 $$        
-(3)    
+    
 $$
-\phi_{1} = \frac{\epsilon_{c}}{x_{I}}
+(3)    \phi_{1} = \frac{\epsilon_{c}}{x_{I}}
 $$        
 
 $$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$   (1)    
