@@ -36,9 +36,9 @@ Onde:
 
 <p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando que a seção inferior de concreto passa a ser desprezada a partir desse ponto. As equações que marcam esse trecho são:</p>
 
-$$M_{2} = M_{r}$$     
+4. $$M_{2} = M_{r}$$     
 
-$$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$        
+5. $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$        
 
 ### Passo 3: Aumento da curvatura e mudança no módulo de elasticidade do concreto
 
