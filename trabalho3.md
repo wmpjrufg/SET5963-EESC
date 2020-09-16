@@ -16,7 +16,11 @@ Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
 
 ### Passo 1: Determinação do limite entre o Estádio I e Estádio II
 
-Deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente $$Mr$$.
+Deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente $$M_{r}$$. Considerando seções planas e as relações lineares entre deformação no concreto ($$\epsilon_{c}$$) e a curvatura \phi_{1}, têm-se o seguinte equacionamento.
+
+$$M_{1} = M_{r} = \frac{\alpha.f_{ctm}.I_{I}}{y_{t}}$$
+$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$  
+$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$  
 
 ### Viga 2$$\phi$$12.5 mm
 
