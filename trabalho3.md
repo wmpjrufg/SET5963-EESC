@@ -93,7 +93,7 @@ $$
 (11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x_{\epsilon y}.\sigma_{c}dy
 $$  
 
-No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12. Em eq. 12 $$\epsilon_{y} = 0,207%$$:
+No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12. Na eq. 12 o valor de $$\epsilon_{y}$$ é igual a $$0,207%$$:
 
 $$  
 (12)      \epsilon_{c,i} = \epsilon_{y}.\frac{x_{\epsilon y}}{d-x_{\epsilon y}}  
