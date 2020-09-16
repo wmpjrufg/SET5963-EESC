@@ -90,7 +90,8 @@ $$
 <p style="text-align: justify;">Portanto para obter as forças no concreto e o equilibrio da seção deverá ser considerado o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto. No caso desse trabalho será utilizado a aproximação do diagrama parabola-retângulo permitida pela NBR 6118. Fazendo então as devidas aproximações, têm-se a equação de equilíbrio de forças normais é dado pela eq. 11:</p>
 
 $$
-(11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x_{\epsilon y}.\sigma_{c}dy
+(11)     \sigma_{c} = E_{cs}.\epsilon_{c,i}  
+A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x_{\epsilon y}.\sigma_{c}dy         
 $$  
 
 No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12. Na eq. 12 o valor de $$\epsilon_{y}$$ é igual a $$0,207%$$:
