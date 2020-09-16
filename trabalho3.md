@@ -31,15 +31,6 @@ $$
 (3)    \phi_{1} = \frac{\epsilon_{c}}{x_{I}}
 $$        
 
-$$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$   (1)    
-$$\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$$                (2)  
-$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$                   (3)   
-
-
-$$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$          
-$$\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$$        
-$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$       
-
 Onde:
 + $$f_{ct,inf}$$: Resistência à tração inferior do concreto;
 + $$\alpha$$: Fator majorador da resistência à tração para seções. No caso de seção retangular $$\alpha = 1,50$$;
@@ -54,31 +45,43 @@ Onde:
 
 <p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando aqui que a seção inferior de concreto passa a ser desprezada a partir desse ponto. Portanto o momento e a curvatura da seção são dadas pelas eq's. 4 e 5:</p>
 
-----|-----:
-$$M_{2} = M_{r}$$                                   | [4]
-$$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]  
+$$
+(4)   M_{2} = M_{r}
+$$ 
+
+$$
+(5)  \phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}
+$$  
 
 ### Passo 3: Aumento da curvatura e mudança no módulo de elasticidade do concreto
 
 <p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção e mudança do módulo de elasticidade do concreto. As eq's. 6 a 8 apresentam o cálculo da curvatura e momento correspondente:</p>
 
-| :--- | ---: |
-| $$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$           | [6] |
-| $$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$              | [7] |
-| $$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$             | [8] |
-  
+$$
+(6)  \epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}
+$$
+
+$$
+(7)   \phi_{3} = \frac{\epsilon_{c}}{x_{II}}
+$$
+
+$$
+(8)    M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}
+$$
+
 <p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada está em uma zona linear elástica para esse material. Para isso utiliza-se a relações entre deformação da seção, conforme eq. 9.</p>
 
-| :--- | ---: |
-| $$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$           | [9] |
-
+$$
+(9)     \epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}
+$$
 
 ### Passo 4: O escoamento da armadura
 
 <p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente, porém deve-se assumir que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [2] e pela eq. 10.</p>
 
-| :--- | ---: |
-| $$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c,i}}{\epsilon_{c2}})^{2}]$$           | [10] |  
+$$
+(10)    \sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c,i}}{\epsilon_{c2}})^{2}]
+$$ 
 
 <p style="text-align: justify;">Para concreto do grupo 1 de resistência os valores das deformações da eq. 10 são:</p>  
 
@@ -86,16 +89,15 @@ $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]
 
 <p style="text-align: justify;">Portanto para obter as forças no concreto e o equilibrio da seção deverá ser considerado o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto. No caso desse trabalho será utilizado a aproximação do diagrama parabola-retângulo permitida pela NBR 6118. Fazendo então as devidas aproximações, têm-se a equação de equilíbrio de forças normais é dado pela eq. 11:</p>
 
-| :--- | ---: |
-| $$A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$           | [11] |     
-
-$$  (11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$  
+$$
+(11)     A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy
+$$  
 
 No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12:
 
-| :--- | ---: |
-| $$\epsilon_{c,i} = \epsilon_{y}.\frac{x}{d-x}$$ e $$\epsilon_{y} = 0,207%$$           | [12] |  
-
+$$
+(12)      \epsilon_{c,i} = \epsilon_{y}.\frac{x}{d-x}$$ e $$\epsilon_{y} = 0,207%
+$$
 
 <p style="text-align: justify;">Com as devidas manipulações algébricas consegue obter a nova posição da linha neutra considerando que as armaduras estão em processo de escoamento. Tal dado permite também obter a curvatura da peça.</p>
 
