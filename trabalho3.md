@@ -20,3 +20,5 @@ $$\phi_{1} = \frac{\epsilon_{C}}{x_{I}}$$
 -Área da seção: $A_{c} = 2487,92 cm^{2}$  
 -Linha Neutra: $x_{I} = 30,92 cm$  
 -Inércio Estádio I: $I_{I} = 777333,60 cm^{4}$  
+
+#### Viga 5$$\phi$$32.00 mm
