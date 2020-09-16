@@ -10,8 +10,8 @@
 O momento resistente $$Mr$$ e a curvatura da peça são dadas por:
 
 $$M_{1} = M_{r} = \frac{\alpha.f_{ctm}.I_{I}}{y_{t}}$$    
-$$\epsilon_{C} = \frac{f_{ctm}}{E_{ci}}$$  
-$$\phi_{1} = \frac{\epsilon_{C}}{x_{I}}$$  
+$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$  
+$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$  
 
 <p style="text-align: justify;"> Portanto com a determinação dos valores de momento resistente e curvatura no ponto de início de fissuração marca-se o fim do Estádio I. Nessa região os pontos notáveis da curva são: </p> 
 
