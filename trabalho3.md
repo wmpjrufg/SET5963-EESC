@@ -8,7 +8,7 @@
 Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:  
 1. Seções planas antes e após das deformações;  
 2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;  
-3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição $$(\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$;  
+3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição $$(\dfrac{d(\epsilon)}{dt} \approx 10^{-5} /s)$$;  
 4. Efeito de fluência é desconsiderado;  
 5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.  
 
