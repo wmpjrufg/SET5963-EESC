@@ -56,6 +56,8 @@ $$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$
 
 $$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$
 
+\begin{equation*} f(x) = 4x^3 + 2x^2 + 1 \end{equation*}
+
 ### Passo 4: O escoamento da armadura
 
 <p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente porém considerando que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [3].</p>
