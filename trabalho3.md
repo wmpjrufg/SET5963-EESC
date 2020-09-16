@@ -46,9 +46,9 @@ $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]
 <p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção e mudança do módulo de elasticidade do concreto. As eq's. 6 a 8 apresentam o cálculo da curvatura e momento correspondente:</p>
 
 | :--- | ---: |
-$$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$           | [6] |
-$$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$              | [7] |
-$$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$             | [8] |
+| $$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$           | [6] |
+| $$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$              | [7] |
+| $$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$             | [8] |
   
 <p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada está em uma zona linear elástica para esse material. Para isso utiliza-se a relações entre deformação da seção, conforme eq. 9.</p>
 
