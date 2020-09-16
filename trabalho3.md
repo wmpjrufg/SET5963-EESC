@@ -136,7 +136,7 @@ $$
 
 ### Viga 5$$\phi$$32.00 mm
 
-[notebook Jupyter - Solução viga 2](link)
+[notebook Jupyter - Solução viga 2](https://nbviewer.jupyter.org/github/wmpjrufg/SET5963-EESC/blob/gh-pages/Trabalho3-viga2.ipynb)
 
 ### Referências
 
