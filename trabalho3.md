@@ -126,6 +126,9 @@ $$
 (16)      M_{5} = A_{s}.f_{y}.(d-0.40.x_{\epsilon cu})
 $$
 
+### Passo 6: Plotagem do diagrama Momento-Curvatura
+
+<p style="text-align: justify;">Após a determinação de todos os pares ordenados nos 5 passos é possível obter o diagrama momento curvatura da viga analisada.</p>
 
 ### Viga 2$$\phi$$12.5 mm
 
