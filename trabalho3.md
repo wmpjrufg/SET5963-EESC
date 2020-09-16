@@ -1,4 +1,5 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> [comment]: <> (não apagar pois é a biblioteca de escrita matemática) <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> [comment]: <> (não apagar pois é a biblioteca de escrita matemática)
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 #### Viga 2$$\phi$$12.5 mm
 
