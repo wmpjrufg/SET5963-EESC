@@ -19,8 +19,10 @@ Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
 Deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente $$M_{r}$$. Considerando seções planas e as relações lineares entre deformação no concreto ($$\epsilon_{c}$$) e a curvatura $$\phi_{1}$$, têm-se o seguinte equacionamento.
 
 $$M_{1} = M_{r} = \frac{\alpha.f_{ctm}.I_{I}}{y_{t}}$$  
-$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$     
-$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$  
+
+$$\epsilon_{c} = \frac{f_{ctm}}{E_{ci}}$$  
+
+$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$    
 
 Onde:
 + $$f_{ctm}$$: Resistência à tração média do concreto;
@@ -44,26 +46,33 @@ $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$
 
 <p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção. As equações ára esse porcesso são:</p>
 
-$$\epsilon_{c=045fck} = \frac{0.45.f_{ck}}{E_{cs}}$$  
+$$\epsilon_{c} = \frac{0,45.f_{ck}}{E_{cs}}$$  
 
-$$\phi_{3} = \frac{\epsilon_{c=045fck}}{x_{II}}$$
+$$\phi_{3} = \frac{\epsilon_{c}}{x_{II}}$$
 
 $$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$
 
 <p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada na seção inferior está em uma zona linear elástica para esse material. Para isso utilzia-se a relações entre deformação da seção, conforme equação.</p>
 
-$$\epsilon_{s} = \epsilon_{c=045fck}.\frac{d-x_{II}}{x_{II}} \neq \epsilon_{y}$$
+$$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$
 
 ### Passo 4: O escoamento da armadura
 
 <p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente porém considerando que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [3].</p>
 
+$$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}]$$  
 
-$$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}]$$
+<p style="text-align: justify;">Para o concreto de 30 MPa os valores das deformações são:</p>  
 
-<p style="text-align: justify;">Para o concreto de 30 MPa os valores das deformações são:</p>
++ $$\epsilon_{c2} = 0,002$$ e $$\epsilon_{cu} = 0,0035$$  
 
--$$\epsilon_{c2} = 0,002$$ e $$\epsilon_{cu} = 0,0035$$
+<p style="text-align: justify;">Portanto o equilibrio da seção deverá considerar o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto ou as aproximações permitidas por norma. No caso será utilizado a diagrama real para determinação da nova posição da linha neutra. Para isso considere o seguinte equacionamento:</p>
+
+$$A_{s}.f_{y} = b_{w}.\int_{0}^{x} f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}] dy$
+
+No caso a variável $$\epsilon_{c}$$ será dada pela equação a seguir. Deve-se lembrar que a deformação $$epsilon_{c}$$ é referente a qualquer posição $$y$$ na seçõa transversal.
+
+$$\epsilon_{c,y} = y.\frac{\epsilon_{c,max}}{x}$$
 
 Onde $$z_{II}$$ indica o braço de alavanca das forças atuantes no concreto até o contoíde que representa as armaduras. $$z_{II}$$ é dado por:
 
