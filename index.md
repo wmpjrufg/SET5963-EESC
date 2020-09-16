@@ -5,4 +5,4 @@
 
 #### Curva Tensão-Deformação
 #### [Determinação Momento Resistente de seções transversais](https://nbviewer.jupyter.org/github/wmpjrufg/set5963-eesc/blob/gh-pages/TRABALHO_MOMENTO_RESISTENTE_R00.ipynb)
-#### [trabalho 3](https://wmpjrufg.github.io/SET5963-EESC/trabalho3.html)
+#### [Trabalho 3](https://wmpjrufg.github.io/SET5963-EESC/trabalho3.html)
