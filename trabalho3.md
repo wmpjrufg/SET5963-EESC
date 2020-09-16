@@ -18,10 +18,10 @@ Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
 
 <p style="text-align: justify;">Primeiramente deve-se estabelecer o ponto de início do processo de fissuração na viga de concreto, que corresponde ao fim do Estádio I e início do Estádio II. Esse ponto de interesse é definido pelo cálculo do Momento Resistente conforme eq. 1. Considerando seções planas e as relações lineares entre as deformações pode obter a curvatura da barra conforme eq. 2.</p>
 
-----|-----:
-$$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$  | [1]
-$$\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$$               | [2]
-$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$                  | [3]  
+| ----|-----: |
+| $M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$  | [1] | 
+| $\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$               | [2] |
+| $\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$                  | [3] | 
 
 Onde:
 + $$f_{ct,inf}$$: Resistência à tração inferior do concreto;
@@ -52,27 +52,31 @@ $$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$          | [5]
   
 <p style="text-align: justify;">Nessa fase é necessário checar se a tensão na armadura tracionada está em uma zona linear elástica para esse material. Para isso utiliza-se a relações entre deformação da seção, conforme eq. 9.</p>
 
-----|-----:
-$$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$           | [9]
+| :--- | ---: |
+| $$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$           | [9] |
 
 
 ### Passo 4: O escoamento da armadura
 
-<p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente porém considerando que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [3].</p>
+<p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente, porém deve-se assumir que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [2] e pela eq. 10.</p>
 
-$$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c,i}}{\epsilon_{c2}})^{2}]$$  
+| :--- | ---: |
+| $$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c,i}}{\epsilon_{c2}})^{2}]$$           | [10] |  
 
-<p style="text-align: justify;">Para o concreto de 30 MPa os valores das deformações são:</p>  
+<p style="text-align: justify;">Para concreto do grupo 1 de resistência os valores das deformações da eq. 10 são:</p>  
 
 + $$\epsilon_{c2} = 0,002$$ e $$\epsilon_{cu} = 0,0035$$  
 
-<p style="text-align: justify;">Portanto para obter as forças no concreto e o equilibrio da seção deverá ser considerado o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto. No caso desse trabalho será utilizado a aproximação do diagrama parabola-retângulo permitida pela NBR 6118. Fazendo então as devidas aproximações, têm-se a equação de equilíbrio de forças normais:</p>
+<p style="text-align: justify;">Portanto para obter as forças no concreto e o equilibrio da seção deverá ser considerado o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto. No caso desse trabalho será utilizado a aproximação do diagrama parabola-retângulo permitida pela NBR 6118. Fazendo então as devidas aproximações, têm-se a equação de equilíbrio de forças normais é dado pela eq. 11:</p>
 
-$$A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$
+| :--- | ---: |
+| $$A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c} = b_{w}.0,80.x.\sigma_{c}dy$$           | [11] |  
 
-No caso a variável $$\epsilon_{c,i}$$ será dada pela equação:
+No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12:
 
-$$\epsilon_{c,i} = \epsilon_{y}.\frac{x}{d-x}$$ e $$\epsilon_{y} = 0,207%$$
+| :--- | ---: |
+| $$\epsilon_{c,i} = \epsilon_{y}.\frac{x}{d-x}$$ e $$\epsilon_{y} = 0,207%$$           | [12] |  
+
 
 <p style="text-align: justify;">Com as devidas manipulações algébricas consegue obter a nova posição da linha neutra considerando que as armaduras estão em processo de escoamento. Tal dado permite também obter a curvatura da peça.</p>
 
