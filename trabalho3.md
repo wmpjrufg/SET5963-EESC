@@ -13,12 +13,14 @@ $$\phi_{1} = \frac{\epsilon_{C}}{x_{I}}$$
 
 <p style="text-align: justify;"> Portanto com a determinação dos valores de momento resistente e curvatura no ponto de início de fissuração marca-se o fim do Estádio I. Nessa região os pontos notáveis da curva são: </p> 
 
--Momento resistente: $M_{r} = 10284,13 kN.cm$  
--Curvatura: $\phi = 3,42 cm^{-1}$  
+-Momento resistente: $$M_{r} = 10284,13 kN.cm$$  
+-Curvatura: $$\phi = 3,42 cm^{-1}$$  
 
--Deformação no concreto: $\epsilon_{c} = 0,010 %$  
--Área da seção: $A_{c} = 2487,92 cm^{2}$  
--Linha Neutra: $x_{I} = 30,92 cm$  
--Inércio Estádio I: $I_{I} = 777333,60 cm^{4}$  
+-Deformação no concreto: $$\epsilon_{c} = 0,010 %$$  
+-Área da seção: $$A_{c} = 2487,92 cm^{2}$$  
+-Linha Neutra: $$x_{I} = 30,92 cm$$  
+-Inércio Estádio I: $$I_{I} = 777333,60 cm^{4}$$  
 
 #### Viga 5$$\phi$$32.00 mm
+
+<p style="text-align: justify;"> teste </p> 
