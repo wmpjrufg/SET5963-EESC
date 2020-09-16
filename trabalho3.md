@@ -29,6 +29,11 @@ $$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$   (1)
 $$\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$$                (2)  
 $$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$                   (3)   
 
+
+$$M_{1} = M_{r} = \frac{\alpha.f_{ct,inf}.I_{I}}{y_{t}}$$          
+$$\epsilon_{c} = \frac{f_{ct,inf}}{E_{ci}}$$        
+$$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$       
+
 Onde:
 + $$f_{ct,inf}$$: Resistência à tração inferior do concreto;
 + $$\alpha$$: Fator majorador da resistência à tração para seções. No caso de seção retangular $$\alpha = 1,50$$;
