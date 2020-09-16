@@ -32,11 +32,27 @@ Onde:
 
 ### Passo 2: Determinação da nova linha neutra para seção fissurada
 
-Após o aumento da curvatura a peça de concreto começará a fissurar, portanto após deverá ser calculada uma nova posição da linha neutra conforme proposto em Carvalho e Figueiredo Filho [2] cap. 4.</p>.
+<p style="text-align: justify;">Após o aumento da curvatura a peça de concreto começará a fissurar, portanto após deverá ser calculada uma nova posição da linha neutra conforme proposto em Carvalho e Figueiredo Filho [2] cap. 4.</p>
 
-<p style="text-align: justify;">Determinada a linha neutra para a condição a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando que a seção inferior de concreto passa a ser desprezada a partir desse ponto. As equações que marcam esse trecho são: </p>
+<p style="text-align: justify;">Determinada as propriedades geométricas de linha neutra e inércia para a nova condição (estado de fissuração) acontece uma singularidade instantânea no diagrama momento-curvatura. O diagrama de forças resistentes da seção passa a ser composto pelo concreto comprimido e o aço tracionado, lembrando que a seção inferior de concreto passa a ser desprezada a partir desse ponto. As equações que marcam esse trecho são:</p>
 
-$$M_{fis} = \frac{1}{2}.\sigma_{C}.b_{w}.x_{II}.z_{II}$$
+$$M_{2} = M_{r}$$     
+
+$$\phi_{2} = \frac{M_{r}}{E_{ci}.I_{II}}$$        
+
+### Passo 3: Aumento da curvatura e mudança no módulo de elasticidade do concreto
+
+<p style="text-align: justify;">Uma outra seção de interesse é quando o concreto atinge cerca de 45% da sua resistência mecânica à compressão. Nesse ponto a linha neutra se manteve estável não alterando sua posição. Portanto é necessário avaliar a relação momento-curvatura para esta situação considerando a inércia fissurada da seção. As equações ára esse porcesso são:</p>
+
+$$\epsilon_{c=045fck} = \frac{0.45.f_{ck}}{E_{cs}}$$  
+
+$$\phi_{3} = \frac{\epsilon_{c=045fck}}{x_{II}}$$
+
+$$M_{3} = M_{r}.\frac{\phi_{3}}{\phi_{2}}$$
+
+<p style="text-align: justify;">Nessa fase é necessário checar a tensão na armadura tracionada na seção inferior. Para isso utilzia-se a relações entre deformação da seção, conforme equação.</p>
+
+$$\epsilon_{s} = \epsilon_{c=045fck}.\frac{d-x_{II}}{x_{II}}$$
 
 Onde $$z_{II}$$ indica o braço de alavanca das forças atuantes no concreto até o contoíde que representa as armaduras. $$z_{II}$$ é dado por:
 
@@ -48,8 +64,7 @@ $$A_{s}.f_{y} = \frac{1}{2}.\sigma_{c}.b_{w}.x_{II}$$
 
 Determina-se então a tensão no concreto comprimido $$\sigma_{C}$$. Lembrando que nesse ponto ainda será considerado o módulo $$E_{ci}$$ para o concreto.
 
-$$\sigma_{c} = \epsilon_{c}.E_{ci}
-
+$$\sigma_{c} = \epsilon_{c}.E_{ci}$$
 
 
 ### Viga 2$$\phi$$12.5 mm
