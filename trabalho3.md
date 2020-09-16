@@ -95,9 +95,9 @@ $$
 
 No caso a variável $$\epsilon_{c,i}$$ da eq. 10 será dada pela eq. 12. Em eq. 12 $$\epsilon_{y} = 0,207%:
 
-$$
-(12)      \epsilon_{c,i} = \epsilon_{y}.\frac{x_{\epsilon y}}{d-x_{\epsilon y}}$$
-$$
+$$  
+(12)      \epsilon_{c,i} = \epsilon_{y}.\frac{x_{\epsilon y}}{d-x_{\epsilon y}}  
+$$  
 
 <p style="text-align: justify;">Com as devidas manipulações algébricas consegue obter a nova posição da linha neutra considerando que as armaduras estão em processo de escoamento. Tal dado permite também obter a curvatura da peça.</p>
 
