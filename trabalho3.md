@@ -60,7 +60,7 @@ $$\epsilon_{s} = \epsilon_{c}.\frac{d-x_{II}}{x_{II}} \leq \epsilon_{y}$$
 
 <p style="text-align: justify;">Com o sucessivo aumento da curvatura da peça é admitido que as armaduras entrem em processo de escoamento. Portanto nesse trecho a linha neutra da peça sofrerá uma nova alteração e para isso é necessário avaliar o equilíbrio de forças novamente porém considerando que nesse estágio o concreto também possuirá um diagrama de comportamento não linear conforme descrito na seção 8.2.10.1 da NBR 6118 [3].</p>
 
-$$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}]$$  
+$$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c,y}}{\epsilon_{c2}})^{2}]$$  
 
 <p style="text-align: justify;">Para o concreto de 30 MPa os valores das deformações são:</p>  
 
@@ -70,11 +70,15 @@ $$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}]$$
 
 $$A_{s}.f_{y} = b_{w}.\int_{0}^{x}\sigma_{c}dy$$
 
-No caso a variável $$\epsilon_{c}$$ será dada pela equação a seguir. Deve-se lembrar que a deformação $$\epsilon_{c}$$ é referente a qualquer posição $$y$$ na seçõa transversal.
+$$\int_{a}^{b} x^2 dx$$
+
+No caso a variável $$\epsilon_{c,y}$$ será dada pela equação a seguir.
 
 $$\epsilon_{c,y} = y.\frac{\epsilon_{c,max}}{x}$$
 
-Nesse caso a equação resultante é dada por:
+Deve-se lembrar que a deformação $$\epsilon_{c,y}$$ é referente a qualquer posição $$y$$ (medida a partir da linha neutra até o bordo mais comprimido) na seção transversal.
+
+Nesse caso a equação resultante após a integração é dada por:
 
 $$-1/3\,{\frac{{\it fc}\,{{\it \epsilon_{y}}}^{2}{x}^{3}}{ \left( d-x \right)^{2}{{\it \epsilon_{c2}}}^{2}}}+{\frac {{\it fc}\,{\it \epsilon_{y}}\,{x}^{2}}{ \left(d-x \right) {\it \epsilon_{c2}}}}$$
 
