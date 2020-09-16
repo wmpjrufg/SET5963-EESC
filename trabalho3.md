@@ -8,9 +8,11 @@
 Para o cálculo desse diagrama deverá ser admitido o seguintes hipóteses [1]:
 1. Seções planas antes e após das deformações;
 2. Na compressão e na tração antes da fissuraão há aderência rígida (sem deslizamento) entre armadura e o concreto circundante;
-3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição ($$\dfrac{d(\epsilon)}{dt} \approx 10_{-5} /s$$
+3. Consideração de carregamento monotônicos quase-estáticos, sem qualquer alterância ou repetição ($$\dfrac{d(\epsilon)}{dt} \approx 10{-5} /s)$$
 4. Efeito de fluência é desconsiderado
 5. Após a fissuração despreza-se, na seção transversal fissurada, a resistência à tração do concreto.
+
+**Passo 1: Determinação do limite entre o Estádio I através da determinação do Momento Resistente ($$M_{r}$$)**
 
 ### Viga 2$$\phi$$12.5 mm
 
@@ -38,4 +40,4 @@ $$\phi_{1} = \frac{\epsilon_{c}}{x_{I}}$$
 
 ### Referências
 
-1. BUCHAIM, R. A influência da não-linearidade física do concreto armado na rigidez à flexão e na capacidade de rotação plástica. Tese de Doutorado em Engenharia de Estruturas. Universidade de São Paulo (USP), 2001.
+1. <p style="text-align: justify;">BUCHAIM, R. A influência da não-linearidade física do concreto armado na rigidez à flexão e na capacidade de rotação plástica. Tese de Doutorado em Engenharia de Estruturas. Universidade de São Paulo (USP), 2001.</p>
