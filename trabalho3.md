@@ -1,7 +1,9 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-#### Viga 2$$\phi$$12.5 mm
+## Teoria Momento Curvatura
+
+## Viga 2$$\phi$$12.5 mm
 
 <p style="text-align: justify;"> Para obtenção do diagrama de momento curvatura de uma viga é necessário primeiramente definir os pontos notáveis de mudança de estádio da peça. Para isso iremos estabelecer o ponto de início do processo de fissuração na viga de concreto que corresponde ao fim do Estádio I e início do Estádio II. Portanto efetuaremos o cálculo do momento resistente e em sequência a curvatira correspondente. </p> 
 
@@ -21,6 +23,6 @@ $$\phi_{1} = \frac{\epsilon_{C}}{x_{I}}$$
 -Linha Neutra: $$x_{I} = 30,92 cm$$  
 -Inércio Estádio I: $$I_{I} = 777333,60 cm^{4}$$  
 
-#### Viga 5$$\phi$$32.00 mm
+## Viga 5$$\phi$$32.00 mm
 
 <p style="text-align: justify;"> teste </p> 
