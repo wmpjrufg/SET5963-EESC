@@ -109,10 +109,10 @@ $$
 
 ### Passo 4: Considerando que o concreto atinge o valor de $$f_{ck}$$ e plastifica completamente a seção comprimida
 
-<p style="text-align: justify;">A partir desse ponto admite-se que o concreto atingiu o valor da resistência a compressão e então efetua-se o cálculo da nova posição da linha neutra da seção. Tomando como referência a eq. 11 obten-se a eq. 14.</p>
+<p style="text-align: justify;">A partir desse ponto admite-se que o concreto atingiu o valor da resistência a compressão e então efetua-se o cálculo da nova posição da linha neutra da seção. Tomando como referência a eq. 11 obtém-se a eq. 14.</p>
 
 $$
-(14)      A_{s}.f_{y} = = b_{w}.0,80.x_{\epsilon cu}.\f_{ck}dy
+(14)      A_{s}.f_{y} = b_{w}.0,80.x_{\epsilon cu}.f_{ck}dy
 $$  
 
 Portanto determina-se o par momento-curvatura conforme eq's. 15 e 16:
