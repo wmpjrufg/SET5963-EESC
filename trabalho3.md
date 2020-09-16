@@ -68,11 +68,16 @@ $$\sigma_{c} = f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}]$$
 
 <p style="text-align: justify;">Portanto o equilibrio da seção deverá considerar o diagrama apresentado na seção 8.2.10.1 relativo a curva tensão-deformação do concreto ou as aproximações permitidas por norma. No caso será utilizado a diagrama real para determinação da nova posição da linha neutra. Para isso considere o seguinte equacionamento:</p>
 
-$$A_{s}.f_{y} = b_{w}.\int_{0}^{x} f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}] dy$
+$$A_{s}.f_{y} = b_{w}.\int_{0}^{x} f_{ck}.[1-(1-\frac{\epsilon_{c}}{\epsilon_{c2}})^{2}] dy$$
 
 No caso a variável $$\epsilon_{c}$$ será dada pela equação a seguir. Deve-se lembrar que a deformação $$epsilon_{c}$$ é referente a qualquer posição $$y$$ na seçõa transversal.
 
 $$\epsilon_{c,y} = y.\frac{\epsilon_{c,max}}{x}$$
+
+Nesse caso a equação resultante é dada por:
+
+$$-1/3\,{\frac{{\it fc}\,{{\it \epsilon_{y}}}^{2}{x}^{3}}{ \left( d-x \right)^{2}{{\it epsilon_{c2}}}^{2}}}+{\frac {{\it fc}\,{\it \epsilon_{y}}\,{x}^{2}}{ \left(d-x \right) {\it epsilon_{c2}}}}$$
+
 
 Onde $$z_{II}$$ indica o braço de alavanca das forças atuantes no concreto até o contoíde que representa as armaduras. $$z_{II}$$ é dado por:
 
