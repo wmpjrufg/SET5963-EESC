@@ -4,5 +4,5 @@
 - Alunos da disciplina: [Wanderlei Malaquias Pereira Junior](http://lattes.cnpq.br/2268506213083114) e [Heraldo Brigo](http://lattes.cnpq.br/2754199697596922).
 
 #### Curva Tensão-Deformação
-#### [Determinação Momento Resistente de seções transversais](https://nbviewer.jupyter.org/github/wmpjrufg/set5963-eesc/blob/gh-pages/TRABALHO_MOMENTO_RESISTENTE_R00.ipynb)
+#### [Trabalho 2](https://nbviewer.jupyter.org/github/wmpjrufg/set5963-eesc/blob/gh-pages/TRABALHO_MOMENTO_RESISTENTE_R00.ipynb)
 #### [Trabalho 3](https://wmpjrufg.github.io/SET5963-EESC/trabalho3.html)
